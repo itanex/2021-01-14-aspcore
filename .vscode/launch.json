@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/2021-01-14-aspcore.dll",
+            "program": "${workspaceFolder}/bin/Debug/netcoreapp3.1/2021-01-15-aspcore.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
@@ -36,7 +36,7 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "netCore": {
-                "appProject": "${workspaceFolder}/2021-01-14-aspcore.csproj"
+                "appProject": "${workspaceFolder}/2021-01-15-aspcore.csproj"
             },
             "dockerServerReadyAction": {
                 "uriFormat": "%s://localhost:%s/WeatherForecast"

@@ -1,6 +1,6 @@
 using System;
 
-namespace _2021_01_14_aspcore
+namespace _2021_01_15_aspcore
 {
     public class WeatherForecast
     {

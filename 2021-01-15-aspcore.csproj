@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_2021_01_14_aspcore</RootNamespace>
+    <RootNamespace>_2021_01_15_aspcore</RootNamespace>
   </PropertyGroup>
 
 

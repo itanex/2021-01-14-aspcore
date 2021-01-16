@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace _2021_01_14_aspcore
+namespace _2021_01_15_aspcore
 {
     public class Program
     {

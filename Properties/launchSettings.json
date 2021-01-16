@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "_2021_01_14_aspcore": {
+    "_2021_01_15_aspcore": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

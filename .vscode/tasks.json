@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/2021-01-14-aspcore.csproj",
+                "${workspaceFolder}/2021-01-15-aspcore.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/2021-01-14-aspcore.csproj",
+                "${workspaceFolder}/2021-01-15-aspcore.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +32,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/2021-01-14-aspcore.csproj",
+                "${workspaceFolder}/2021-01-15-aspcore.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -45,14 +45,14 @@
                 "build"
             ],
             "dockerBuild": {
-                "tag": "20210114aspcore:dev",
+                "tag": "20210115aspcore:dev",
                 "target": "base",
                 "dockerfile": "${workspaceFolder}/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/2021-01-14-aspcore.csproj"
+                "appProject": "${workspaceFolder}/2021-01-15-aspcore.csproj"
             }
         },
         {
@@ -62,13 +62,13 @@
                 "build"
             ],
             "dockerBuild": {
-                "tag": "20210114aspcore:latest",
+                "tag": "20210115aspcore:latest",
                 "dockerfile": "${workspaceFolder}/Dockerfile",
                 "context": "${workspaceFolder}",
                 "pull": true
             },
             "netCore": {
-                "appProject": "${workspaceFolder}/2021-01-14-aspcore.csproj"
+                "appProject": "${workspaceFolder}/2021-01-15-aspcore.csproj"
             }
         },
         {
@@ -79,7 +79,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/2021-01-14-aspcore.csproj",
+                "appProject": "${workspaceFolder}/2021-01-15-aspcore.csproj",
                 "enableDebugging": true
             }
         },
@@ -91,7 +91,7 @@
             ],
             "dockerRun": {},
             "netCore": {
-                "appProject": "${workspaceFolder}/2021-01-14-aspcore.csproj"
+                "appProject": "${workspaceFolder}/2021-01-15-aspcore.csproj"
             }
         }
     ]
